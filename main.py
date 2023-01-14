@@ -1,5 +1,5 @@
-from model.execute_model import execute_model
-from model.train_model import create_model
+from model.execute import execute_model
+from model.train import create_model
 
 
 if __name__ == "__main__":

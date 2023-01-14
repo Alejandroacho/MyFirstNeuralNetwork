@@ -2,8 +2,8 @@ from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 
-from data_set.inputs import inputs
-from data_set.outputs import outputs
+from dataset.inputs import inputs
+from dataset.outputs import outputs
 
 
 def get_model() -> Sequential:
